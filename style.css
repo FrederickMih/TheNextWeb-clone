@@ -1,7 +1,11 @@
-/* CSS Quick Fixes */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+/* ---------CSS Quick Fixation------------*/
 
 :root {
     box-sizing: border-box;
+    --square-font: 'Play', sans-serif;
+    --text-color-light:  rgb(161, 156, 156);
   }
   
   *,
@@ -9,21 +13,225 @@
   ::after {
     box-sizing: inherit;
   }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
   
   body * + * {
     margin-top: 1.5em;
   }
 
-.container {
-    background-color: pink;
+  ul li + li {
+    margin-top: 0;
+  }
+
+/* ----------------CSS for HEADER--------------- */
+
+header {
+  /* border: 5px solid green; */
 }
+
+.header-mobile {
+  border: 3px solid blue;
+}
+
 .header-mobile ul {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    border: 1px solid red;
-    list-style: none; 
-    align-items: baseline;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.search-icon {
+  margin-left: auto;
+}
+
+.header-mobile ul > li > a{
+  /* border: 1px solid blue; */
+  display: block;
+  padding: 1em;
+}
+
+.header-tablet {
+  display: none;
+}
+
+.header-desktop {
+  display: none;
+}
+
+/* ----------CSS for main content-----------  */
+
+.content{
+  /* border: 2px solid red; */
+  margin-top: 0;
+}
+
+/* ------------content-cover section------------ */
+
+.content-cover {
+  border: 2px solid red;
+}
+
+.cover {
+  border: 2px solid blue;
+  margin: 0.3em 0 0.3em 0;
+  padding: 0.5em;
+  background-position: cover;
+  background-blend-mode: darken;
+}
+
+.cover:hover {
+  background-blend-mode: lighten;
+}
+
+.text-bottom {
+  color: #fff;
+}
+
+.cover h4 {
+  font-family: var(--square-font);
+  font-weight: 400;
+  margin-bottom: 0;
+  display: inline-block;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.cover h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.cover ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  color: rgb(235, 232, 232);
+}
+
+.cover ul li {
+  /* border: 2px solid red; */
+  margin-right: 0.5em;
+  font-size: 0.8rem;
+}
+
+.cover ul li a {
+  text-decoration: none;
+  color: rgb(235, 232, 232);
+}
+
+.cover ul li a:hover {
+  color: #fff;
+}
+
+.cover > .text-bottom {
+  padding-top: 20%;
+}
+
+/* ------inserting background images for cover section------ */
+
+.world {
+  background: url("assets/images/christmas.jpg");
   
 }
 
+.gear {
+  background: url("assets/images/christmas.jpg");
+}
+
+.distract {
+  background: url("assets/images/christmas.jpg");
+}
+
+
+/* ---------Grid news section-------- */
+
+.grid-news {
+  /* border: 5px solid green; */
+}
+
+.grid-news-title {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+}
+
+.grid-news-title a + a {
+  margin-top: 0;
+}
+
+.grid-news-title a {
+  color: red;
+  text-decoration: none;
+  /* border: 1px solid blue; */
+}
+
+.focus {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.focus-less {
+  font-size: 0.9rem;
+  align-self: flex-end;
+}
+
+/* -----------grid-news-contents----------- */
+
+.grid-news-content {
+  border: 2px solid red;
+}
+
+.news-item {
+  border: 2px solid green;
+  display: flex;
+}
+
+.news-item img {
+ height: 80px;
+ width: 80px;
+ border: 2px solid red;
+ align-self: center;
+}
+
+.news-item-desc {
+  border: 2px solid red;
+  margin-top: 0;
+  margin-left: 0.5em;
+}
+
+.news-item-desc-heading > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.news-item-desc-heading a:hover {
+  color: red;
+}
+
+.source {
+  font-size: 0.8rem;
+  color: var(--text-color-light)
+}
+
+.source > a{
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+.source > a:hover {
+  color: #000;
+}
