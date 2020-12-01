@@ -235,3 +235,64 @@ header {
 .source > a:hover {
   color: #000;
 }
+
+/* Css for latest section */
+
+.latest {
+    border: 2px solid red;
+
+}
+
+.latest header {
+    border: 2px solid blue;
+} 
+
+.latest header h2 a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: red;
+}
+
+.latest header h2 a:hover {
+    color: black;
+}
+
+.latest header ul {
+    border: 2px solid blue;
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+.latest header ul li {
+    margin-bottom: 0.8em;
+}
+
+.latest header ul li a {
+color: red;
+text-decoration: none;
+ 
+}
+
+.latest header ul li a:hover {
+ color: black;
+} 
+
+.latest-content {
+    border: 2px solid red;
+}
+
+.latest-tile {
+    border: 2px solid blue;
+}
+
+.tile-head img {
+ height: 60px;
+ width: 60px;
+ border: 2px solid red;
+
+}
+
+.tile-head-title {
+background-color: red;
+}
