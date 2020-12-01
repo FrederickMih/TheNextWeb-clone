@@ -1,0 +1,29 @@
+/* CSS Quick Fixes */
+
+:root {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+  
+  body * + * {
+    margin-top: 1.5em;
+  }
+
+.container {
+    background-color: pink;
+}
+.header-mobile ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border: 1px solid red;
+    list-style: none; 
+    align-items: baseline;
+  
+}
+
