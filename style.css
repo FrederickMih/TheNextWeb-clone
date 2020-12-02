@@ -3,30 +3,30 @@
 /* ---------CSS Quick Fixation------------*/
 
 :root {
-    box-sizing: border-box;
-    --square-font: 'Play', sans-serif;
-    --text-color-light:  rgb(161, 156, 156);
-  }
+  box-sizing: border-box;
+  --square-font: 'Play', sans-serif;
+  --text-color-light:  rgb(161, 156, 156);
+}
   
-  *,
-  ::before,
-  ::after {
-    box-sizing: inherit;
-  }
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body * + * {
-    margin-top: 1.5em;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  ul li + li {
-    margin-top: 0;
-  }
+body * + * {
+  margin-top: 1.5em;
+}
+
+ul li + li {
+  margin-top: 0;
+}
 
 /* ----------------CSS for HEADER--------------- */
 
@@ -39,7 +39,7 @@ header {
 }
 
 .header-mobile ul {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -52,8 +52,18 @@ header {
   margin-left: auto;
 }
 
+.TNW-logo {
+  background-color: #000;
+  /* border: 2px solid red; */
+}
+
+.TNW-logo img {
+  width: 24%;
+  height: auto;
+}
+
 .header-mobile ul > li > a{
-  /* border: 1px solid blue; */
+  border: 2px solid red;
   display: block;
   padding: 1em;
 }
@@ -95,13 +105,15 @@ header {
   color: #fff;
 }
 
-.cover h4 {
+.cover h4,
+.exclusive-feature .text h4 {
   font-family: var(--square-font);
   font-weight: 400;
   margin-bottom: 0;
   display: inline-block;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .cover h2 {
@@ -236,63 +248,298 @@ header {
   color: #000;
 }
 
-/* Css for latest section */
+/* CSS for latest section */
 
 .latest {
-    border: 2px solid red;
-
+  border: 2px solid red;
 }
 
 .latest header {
-    border: 2px solid blue;
+  border: 2px solid blue;
 } 
 
-.latest header h2 a {
+.latest header h2 a,
+.exclusive-tile h2 a {
   font-size: 1.6rem;
   font-weight: 700;
   color: red;
 }
 
-.latest header h2 a:hover {
-    color: black;
+.latest header h2 a:hover,
+.exclusive-tile h2 a:hover {
+  color: black;
 }
 
 .latest header ul {
-    border: 2px solid blue;
-    list-style-type: none;
-    padding: 0;
-    font-size: 0.9rem;
+  /* border: 2px solid blue; */
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
 }
 
 .latest header ul li {
-    margin-bottom: 0.8em;
+  margin-bottom: 0.8em;
 }
 
 .latest header ul li a {
-color: red;
-text-decoration: none;
- 
+  color: red;
+  text-decoration: none;
 }
 
 .latest header ul li a:hover {
- color: black;
+  color: black;
 } 
 
 .latest-content {
-    border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .latest-tile {
-    border: 2px solid blue;
+  /* border: 2px solid green; */
+}
+
+.tile-head {
+  position: relative;
+  margin-bottom: 1.5em;
+  margin-top: 2em;
 }
 
 .tile-head img {
- height: 60px;
- width: 60px;
- border: 2px solid red;
-
+  height: 60px;
+  width: 60px;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
 }
 
 .tile-head-title {
-background-color: red;
+  background-color: red;
+  /* border: 2px solid green; */
+}
+
+.tile-head-title a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 0;
+  margin-left: 80px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.rate {
+  /* border: 2px solid blue; */
+  margin-top: 0;
+  background-color: pink;
+}
+
+.rate a{
+ margin-left: 80px;
+ color: #000;
+ font-size: 1.2rem;
+ font-weight: 700;
+ text-decoration: none;
+ padding: 0.5em 0;
+ display: block;
+}
+
+.rate a > span {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: var(--square-font);
+}
+
+.tile-target-link {
+  font-size: 0.85rem;
+  padding-left: 0.5em;
+  color: var(--text-color-light);
+  /* border: 2px solid blueviolet; */
+  margin: 1em auto;
+}
+
+.tile-target-link a {
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+.tile-target-link i {
+  color: #000;
+  padding-right: 0.2em;
+}
+
+.tile-target-link a:hover{
+  color: #000;
+}
+
+.desc {
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-top: 0.5px solid red;
+  padding: 1em;
+}
+
+.desc span {
+  color: var(--text-color-light);
+}
+
+/* -------------EXCLUSIVE SECTION---------- */
+
+.exclusive-tile {
+  /* border: 2px solid blueviolet; */
+}
+
+.exclusive-tile h2 a {
+  text-decoration: none;
+}
+.popular {
+  background-color: #000;
+  margin-bottom: 0;
+}
+
+.exclusive-feature {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  background-color: pink;
+  margin-top: 0;
+}
+
+.exclusive-feature img {
+  height: 100px;
+  width: 100px;
+  /* border: 3px solid green; */
+}
+
+.exclusive-feature > a {
+  margin-top: 0;
+}
+
+.exclusive-feature .text {
+  /* border: 1px solid blue; */
+}
+.exclusive-feature .text h4 {
+  cursor: auto;
+  font-size: 0.9rem;
+}
+
+.exclusive-feature .text p {
+  /* border: 1px solid red; */
+  margin-top: 0;
+}
+
+.exclusive-feature .text p a{
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.exclusive-feature .text p a:hover{
+  text-decoration: underline;
+}
+
+.exclusive-links {
+  /* border: 2px solid green; */
+  list-style-position: inside;
+  padding: 0;
+  margin-top: 0;
+}
+
+.exclusive-links li {
+  color: red;
+  border-bottom: 1px solid var(--text-color-light);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.exclusive-links li a {
+  color: var(--text-color-light);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.exclusive-links li a:hover {
+  color: #000;
+}
+
+
+/* ------------FOOTER SECTION----------- */
+
+.footer {
+  border: 2px solid red;
+}
+
+.footer-top {
+  /* border: 2px solid blue; */
+  background-color: #131313;
+  margin-bottom: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-top .icons ul,
+.top-footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  /* border: 1px solid green; */
+  justify-content: center;
+} 
+
+.footer-top .icons ul li a {
+  /* border: 2px solid red; */
+  padding: 0.5em;
+  margin: 0.2em;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.footer-top .icons ul li a i {
+  color: #fff;
+}
+
+.top-footer-menu ul li a {
+  margin: 0.2em;
+  text-decoration: none;
+  font-family: var(--square-font);
+  text-transform: uppercase;
+  color: #787878;
+  font-size: 0.9rem;
+}
+
+.footer-bottom {
+  background-color: #000;
+  margin-top: 0;
+  /* border: 1px solid red; */
+  color: #fff;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.footer-bottom p {
+  /* border: 1px solid red; */
+  font-size: 0.8rem;
+  color: #787878;
+}
+
+.footer-bottom p > span {
+  display: block;
+  /* border: 1px solid blue; */
+  margin: 0;
+  margin-top: 0.2em;
+}
+
+.TNW img{
+  width: 8%;
+  height: aut0
+}
+
+.stackpath a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
