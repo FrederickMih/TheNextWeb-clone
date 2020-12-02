@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+.header-tablet {
+  /* border: 2px solid red; */
+  margin-top: 0;
+  /* position: relative; */
+}
+
+.header-tablet .logo {
+  border: 2px solid blue;
+  background-color: #000;
+  display: inline;
+  padding: 1em;
+  /* position: absolute; */
+}
+
+.header-tablet .logo img {
+    width: 8%;
+}
+
+/* ----------TOP NAV BAR------------ */
+
+.nav-top {
+  /* border: 2px solid red; */
+  background-color: #131313;
+}
+
+.nav-top ul,
+.nav-bottom ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.3em;
+  margin: 0;
+}
+
+.nav-top ul li a,
+.nav-bottom ul li a {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  display: block;
+  padding: 0.3em 0.8em;
+  font-size: 0.8rem;
+  color: #bfbfbf;
+}
+
+.nav-top ul li a:hover {
+    color: #fff;
+}
+
+.about {
+    margin-left: auto;
+}
+
+/* -------------BOTTOM NAV BAR------------- */
+
+.nav-bottom {
+    /* border: 2px solid red; */
+    margin-top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.nav-bottom ul li a {
+    font-size: 1rem;
+    font-family: 'Play', sans-serif;;
+}
+
+
+
+.nav-bottom ul li a:hover {
+    color: #000;
+}
+
+
+
+

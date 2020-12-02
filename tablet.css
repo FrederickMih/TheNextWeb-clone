@@ -1,5 +1,14 @@
 @media (min-width: 768px) {
 
+    /* ----------HEADER---------- */
+    .header-mobile {
+        display: none;
+    }
+
+    .header-tablet {
+        display: block;
+    }
+
     .content-cover {
         display: grid;
         grid-template-areas: "world gear"
