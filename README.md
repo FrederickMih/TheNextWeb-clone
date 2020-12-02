@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://frederickmih.github.io/TheNextWeb-clone/)
 
 
 ## Getting Started
