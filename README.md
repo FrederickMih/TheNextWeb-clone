@@ -1,22 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TheNextWeb-clone
 
-> One paragraph statement about the project.
+> This project is the clone of the next web page
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/thenextweb.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML and CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]()
 
 
 ## Getting Started
@@ -43,17 +40,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Amit Kumar**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/KumarAmitt)
+- Twitter: [@twitterhandle](https://twitter.com/ArrshAmitt)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/kumar-amitt)
 
-👤 **Author2**
+👤 **Frederick mih**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/FrederickMih)
+- Twitter: [@twitterhandle](https://twitter.com/MihFrederick)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fred-mih-495bb31a2/ )
 
 ## 🤝 Contributing
 
