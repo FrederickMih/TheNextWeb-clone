@@ -35,11 +35,17 @@ header {
 }
 
 .header-mobile {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
+  box-shadow: 0 5px #f1f1f1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
 }
 
 .header-mobile ul {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -48,24 +54,36 @@ header {
 
 }
 
-.search-icon {
-  margin-left: auto;
+.header-mobile ul .TNW-logo {
+  /* background-color: #000; */
+  /* border: 2px solid red;   */
 }
 
-.TNW-logo {
+.header-mobile ul .TNW-logo img {
+  width: 24%;
+  height: auto;
   background-color: #000;
   /* border: 2px solid red; */
 }
 
-.TNW-logo img {
-  width: 24%;
-  height: auto;
+.search-icon {
+  margin-left: auto;
 }
 
 .header-mobile ul > li > a{
-  border: 2px solid red;
+  border-left: 0.5px solid #f1f1f1;
   display: block;
-  padding: 1em;
+  padding: 0.6em;
+  font-size: 1.6rem;
+}
+
+.fa-search {
+  color: #BFBFBF;
+  transform: rotateY(180deg);
+}
+
+.fa-bars {
+  color: #F34A24;
 }
 
 .header-tablet {
@@ -81,24 +99,25 @@ header {
 .content{
   /* border: 2px solid red; */
   margin-top: 0;
+  padding: 0.5em;
+  /* background-color: yellow; */
 }
 
 /* ------------content-cover section------------ */
 
 .content-cover {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .cover {
-  border: 2px solid blue;
-  margin: 0.3em 0 0.3em 0;
+  /* border: 2px solid blue; */
+  margin: 0.5em 0 0.5em 0;
   padding: 0.5em;
   background-position: cover;
-  background-blend-mode: darken;
 }
 
 .cover:hover {
-  background-blend-mode: lighten;
+  background-blend-mode: soft-light;
 }
 
 .text-bottom {
@@ -117,53 +136,49 @@ header {
 }
 
 .cover h2 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bolder;
   margin-top: 0;
   margin-bottom: 0;
   cursor: pointer;
+  /* border: 2px solid green; */
 }
 
-.cover ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin-top: 0;
-  color: rgb(235, 232, 232);
-}
-
-.cover ul li {
-  /* border: 2px solid red; */
-  margin-right: 0.5em;
+.cover p {
   font-size: 0.8rem;
+  color: #f1f1f1;
+  /* border: 1px solid red; */
+  margin-top: 0;
+  padding: 0;
 }
 
-.cover ul li a {
+.cover p a {
+  color: #ccc;
   text-decoration: none;
-  color: rgb(235, 232, 232);
+  margin-top: 0;
+  display: inline-block;
 }
 
-.cover ul li a:hover {
+.cover p a:hover {
   color: #fff;
 }
 
 .cover > .text-bottom {
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 /* ------inserting background images for cover section------ */
 
 .world {
-  background: url("assets/images/christmas.jpg");
-  
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("assets/images/electric-car.jpg");
 }
 
 .gear {
-  background: url("assets/images/christmas.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("assets/images/electric-car.jpg");
 }
 
 .distract {
-  background: url("assets/images/christmas.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("assets/images/electric-car.jpg");
 }
 
 
@@ -171,6 +186,8 @@ header {
 
 .grid-news {
   /* border: 5px solid green; */
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .grid-news-title {
@@ -190,7 +207,7 @@ header {
 }
 
 .focus {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -202,23 +219,27 @@ header {
 /* -----------grid-news-contents----------- */
 
 .grid-news-content {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .news-item {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
 }
 
 .news-item img {
  height: 80px;
  width: 80px;
- border: 2px solid red;
+ /* border: 2px solid red; */
  align-self: center;
 }
 
+.news-item img:hover {
+  cursor: pointer;
+}
+
 .news-item-desc {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 0;
   margin-left: 0.5em;
 }
@@ -232,6 +253,7 @@ header {
 
 .news-item-desc-heading a:hover {
   color: red;
+  text-decoration: underline;
 }
 
 .source {
@@ -251,11 +273,13 @@ header {
 /* CSS for latest section */
 
 .latest {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-.latest header {
-  border: 2px solid blue;
+.latest > header {
+  /* border: 2px solid blue; */
 } 
 
 .latest header h2 a,
@@ -314,7 +338,7 @@ header {
 }
 
 .tile-head-title {
-  background-color: red;
+  background-color: #F34A24;
   /* border: 2px solid green; */
 }
 
@@ -331,7 +355,7 @@ header {
 .rate {
   /* border: 2px solid blue; */
   margin-top: 0;
-  background-color: pink;
+  background-color: #FDE8E4;
 }
 
 .rate a{
@@ -386,6 +410,11 @@ header {
 
 /* -------------EXCLUSIVE SECTION---------- */
 
+.exclusive {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 .exclusive-tile {
   /* border: 2px solid blueviolet; */
 }
@@ -403,7 +432,7 @@ header {
   display: flex;
   justify-content: space-between;
   color: red;
-  background-color: pink;
+  background-color: #FDE8E4;
   margin-top: 0;
 }
 
@@ -419,6 +448,7 @@ header {
 
 .exclusive-feature .text {
   /* border: 1px solid blue; */
+  padding: 0 0.8em;
 }
 .exclusive-feature .text h4 {
   cursor: auto;
@@ -449,26 +479,40 @@ header {
 
 .exclusive-links li {
   color: red;
-  border-bottom: 1px solid var(--text-color-light);
+  border-bottom: 1px solid #f1f1f1;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 
 .exclusive-links li a {
-  color: var(--text-color-light);
+  color: #5c5c5c;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .exclusive-links li a:hover {
   color: #000;
 }
 
+.popular .text-bottom {
+  padding-top: 30%;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #b3b3b3;
+}
+
+.non-strike {
+  color: #6c6c6c;
+  font-size: 0.9rem;
+}
+
 
 /* ------------FOOTER SECTION----------- */
 
 .footer {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .footer-top {
@@ -489,11 +533,15 @@ header {
 } 
 
 .footer-top .icons ul li a {
-  /* border: 2px solid red; */
+  border: 2px solid #333;
   padding: 0.5em;
   margin: 0.2em;
   border-radius: 50%;
   background-color: #333;
+}
+
+.footer-top .icons ul li a:hover {
+  background-color: #000;
 }
 
 .footer-top .icons ul li a i {
@@ -509,13 +557,17 @@ header {
   font-size: 0.9rem;
 }
 
+.top-footer-menu ul li a:hover {
+  color: #fff;
+}
+
 .footer-bottom {
   background-color: #000;
   margin-top: 0;
   /* border: 1px solid red; */
   color: #fff;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   text-align: center;
 }
 
@@ -535,6 +587,10 @@ header {
 .TNW img{
   width: 8%;
   height: aut0
+}
+
+.TNW img:hover {
+  cursor: pointer;
 }
 
 .stackpath a {

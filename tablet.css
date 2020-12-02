@@ -1,0 +1,115 @@
+@media (min-width: 768px) {
+
+    .content-cover {
+        display: grid;
+        grid-template-areas: "world gear"
+                            " world distract";
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .cover h2 {
+        font-size: 1rem;
+    }
+
+    .world {
+        grid-area: world;
+    }
+
+    .world .text-bottom {
+        padding-top: 40%;
+    }
+
+    .world h2 {
+        font-size: 2rem;
+    }
+
+    .gear {
+        grid-area: gear;
+        /* border: 2px solid red; */
+        margin-bottom: 0;
+    }
+
+    .distract {
+        grid-area: distract;
+        /* border: 2px solid red; */
+        margin-top: 0;
+    }
+
+    /* ---------NEWS GRID-------- */
+
+    .grid-news-content  {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: repear(3, 1fr); */
+        grid-gap: 1em;
+    }
+
+    .grid-news-content > * + * {
+        margin-top: 0;
+    }
+
+    .news-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ----------LATEST SECTION------------ */
+
+    .latest header ul li {
+        display: inline;
+        font-size: 1rem;
+        padding: 0 1em;
+    }
+
+    .nav-menu .first-li {
+        padding-left: 0;
+    }
+
+    .middle-li {
+        border-left: 2px solid red;
+        border-right: 2px solid red;
+    }
+
+    .latest-content {
+        display: flex;
+        padding-top: 0;
+    }
+
+    .latest-content > * + * {
+        margin-top: 0;
+        margin-left: 1.5em;
+    }
+
+    .latest-tile-last {
+        display: none;
+    }
+
+    /* ---------EXCLUSIVE SECTION---------- */
+
+    .exclusive {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .exclusive > * + * {
+        margin-top: 0;
+    }
+
+    /* ------------FOOTER----------- */
+
+    .footer-bottom p span{
+        display: inline;
+    }
+
+    .footer-bottom .TNW img {
+        width: 5%;
+    }
+}
