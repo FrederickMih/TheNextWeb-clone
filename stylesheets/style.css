@@ -366,10 +366,6 @@ ul li + li {
   color: #000;
 }
 
-.exclusive-feature .text p a:hover {
-  text-decoration: underline;
-}
-
 .footer-top .icons ul li a {
   border: 2px solid #333;
   padding: 0.5em;
@@ -391,18 +387,22 @@ ul li + li {
   color: black;
 }
 
+.latest header ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.exclusive-feature .text p a:hover {
+  text-decoration: underline;
+}
+
 .top-footer-menu ul,
 .footer-top .icons ul {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
-}
-
-.latest header ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 0.9rem;
 }
 
 .latest header ul li {
@@ -480,6 +480,11 @@ ul li + li {
   font-size: 0.9rem;
 }
 
+.footer-bottom p {
+  font-size: 0.8rem;
+  color: #787878;
+}
+
 .exclusive-feature .text p {
   margin-top: 0;
 }
@@ -528,11 +533,6 @@ ul li + li {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   text-align: center;
-}
-
-.footer-bottom p {
-  font-size: 0.8rem;
-  color: #787878;
 }
 
 .footer-bottom p > span {
