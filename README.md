@@ -4,12 +4,12 @@
 
 > We have created the clone of the famous Tech magazine The Next Web. This project has been created as a part of Microverse Collaborative Project.
 
-![screenshot](https://www.dropbox.com/s/x50dmxn856puyqm/screenshot1.png?dl=1)
-![screenshot](https://www.dropbox.com/s/lxlsfsts5twonqw/screenshot2.png?dl=1)
-![screenshot](https://www.dropbox.com/s/sfeukbvd68at67n/screenshot3.png?dl=1)
-![screenshot](https://www.dropbox.com/s/wywfq2kh2xrcf2a/screenshot4.png?dl=1)
-![screenshot](https://www.dropbox.com/s/2xfk86ux3mgiyg5/screenshot5.png?dl=1)
-![screenshot](https://www.dropbox.com/s/ugcdytufu44cppa/screenshot6.png?dl=1)
+![screenshot](https://www.dropbox.com/s/x50dmxn856puyqm/screenshot1.png?raw=1)
+![screenshot](https://www.dropbox.com/s/lxlsfsts5twonqw/screenshot2.png?raw=1)
+![screenshot](https://www.dropbox.com/s/sfeukbvd68at67n/screenshot3.png?raw=1)
+![screenshot](https://www.dropbox.com/s/wywfq2kh2xrcf2a/screenshot4.png?raw=1)
+![screenshot](https://www.dropbox.com/s/2xfk86ux3mgiyg5/screenshot5.png?raw=1)
+![screenshot](https://www.dropbox.com/s/ugcdytufu44cppa/screenshot6.png?raw=1)
 
 
 ## Built With
