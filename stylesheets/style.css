@@ -385,13 +385,19 @@ ul li + li {
   color: black;
 }
 
+.top-footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
 .latest header ul {
   list-style-type: none;
   padding: 0;
   font-size: 0.9rem;
 }
 
-.top-footer-menu ul,
 .footer-top .icons ul {
   list-style-type: none;
   padding: 0;
