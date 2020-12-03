@@ -366,17 +366,17 @@ ul li + li {
   color: #000;
 }
 
+.latest header h2 a:hover,
+.exclusive-tile h2 a:hover {
+  color: black;
+}
+
 .footer-top .icons ul li a {
   border: 2px solid #333;
   padding: 0.5em;
   margin: 0.2em;
   border-radius: 50%;
   background-color: #333;
-}
-
-.latest header h2 a:hover,
-.exclusive-tile h2 a:hover {
-  color: black;
 }
 
 .top-footer-menu ul li a:hover {
@@ -387,6 +387,14 @@ ul li + li {
   color: black;
 }
 
+.top-footer-menu ul,
+.footer-top .icons ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
 .latest header ul {
   list-style-type: none;
   padding: 0;
@@ -395,14 +403,6 @@ ul li + li {
 
 .exclusive-feature .text p a:hover {
   text-decoration: underline;
-}
-
-.top-footer-menu ul,
-.footer-top .icons ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
 }
 
 .latest header ul li {
