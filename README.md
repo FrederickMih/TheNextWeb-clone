@@ -23,24 +23,20 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Must have a text editor installed on your machine. You can use any default text editor that comes eith the system like Notepad but advanced text editors like Visual Studio Code, Atom or Sublime is recommended.
+
 ### Setup
 
-### Install
+See the product documentation for installation and get running.
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone the folder on your local machine.
+- Navigate to the folder TheNextWeb-clone.
+- Run index.html on your browser of preference. Recommended: Chrome/Firefox
 
 
 ## Authors
