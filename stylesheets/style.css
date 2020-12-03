@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
-/* ---------CSS Quick Fixation------------*/
-
 :root {
   box-sizing: border-box;
 
@@ -387,18 +385,18 @@ ul li + li {
   color: black;
 }
 
-.latest header ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 0.9rem;
-}
-
 .top-footer-menu ul,
 .footer-top .icons ul {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
+}
+
+.latest header ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
 }
 
 .exclusive-feature .text p a:hover {
