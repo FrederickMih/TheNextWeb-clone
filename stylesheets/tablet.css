@@ -7,8 +7,10 @@
 
   .header-tablet {
     display: block;
-    position: sticky;
-    top: 0;
+  }
+
+  .content {
+    margin-top: 4em;
   }
 
   .content-cover {
