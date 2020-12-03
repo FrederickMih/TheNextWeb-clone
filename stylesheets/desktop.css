@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
 
-/* ---------HEADER--------- */
+  /* ---------HEADER--------- */
     
   .header-tablet .logo {
     display: none;
@@ -32,7 +32,7 @@
     background-size: cover;
   }
 
-/* ---------NEWS GRID-------- */
+  /* ---------NEWS GRID-------- */
 
   .grid-news-content {
     grid-template-columns: repeat(4, 1fr);
@@ -42,7 +42,7 @@
     display: block;
   }
 
-/* -----------LATEST SECTION------------- */
+  /* -----------LATEST SECTION------------- */
 
   .latest header {
     display: flex;
@@ -58,7 +58,7 @@
     margin-bottom: 0;
   }
 
-/* ---------EXCLUSIVE SECTION---------- */
+  /* ---------EXCLUSIVE SECTION---------- */
 
   .exclusive {
     grid-template-columns: repeat(3, 1fr);
@@ -69,6 +69,5 @@
   .exclusive {
     max-width: 1200px;
     margin: 0 auto;
-  }
-       
+  }    
 }

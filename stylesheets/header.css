@@ -49,6 +49,11 @@
   color: #8d8d8d;
 }
 
+.nav-bottom ul li a {
+  font-size: 1rem;
+  font-family: 'Play', sans-serif;
+}
+
 .nav-top ul li a:hover {
   color: #fff;
 }
@@ -66,11 +71,6 @@
   background-color: #fff;
 }
 
-.nav-bottom ul li a {
-  font-size: 1rem;
-  font-family: 'Play', sans-serif;;
-}
-
 .nav-bottom ul li a:hover {
-    color: #000;
+  color: #000;
 }

@@ -5,9 +5,9 @@
 :root {
   box-sizing: border-box;
   --square-font: 'Play', sans-serif;
-  --text-color-light:  rgb(161, 156, 156);
+  --text-color-light: rgb(161, 156, 156);
 }
-  
+
 *,
 ::before,
 ::after {
@@ -54,6 +54,12 @@ ul li + li {
   background-color: #000;
 }
 
+.news-item img {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+}
+
 .header-mobile ul .TNW-logo img {
   width: 70px;
   height: auto;
@@ -63,7 +69,22 @@ ul li + li {
   margin-left: auto;
 }
 
-.header-mobile ul > li > a{
+.cover p a {
+  color: #ccc;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.grid-news-title a + a {
+  margin-top: 0;
+}
+
+.grid-news-title a {
+  color: red;
+  text-decoration: none;
+}
+
+.header-mobile ul > li > a {
   border-left: 0.5px solid #f1f1f1;
   display: block;
   padding: 0.4em;
@@ -71,12 +92,12 @@ ul li + li {
 }
 
 .fa-search {
-  color: #BFBFBF;
+  color: #bfbfbf;
   transform: rotateY(180deg);
 }
 
 .fa-bars {
-  color: #F34A24;
+  color: #f34a24;
 }
 
 .header-tablet {
@@ -89,7 +110,7 @@ ul li + li {
 
 /* ----------CSS for main content-----------  */
 
-.content{
+.content {
   margin-top: 0;
   padding: 0.5em;
 }
@@ -142,12 +163,6 @@ ul li + li {
   display: inline;
 }
 
-.cover p a {
-  color: #ccc;
-  text-decoration: none;
-  display: inline-block;
-}
-
 .cover p a:hover {
   color: #fff;
 }
@@ -172,15 +187,6 @@ ul li + li {
   justify-content: space-between;
 }
 
-.grid-news-title a + a {
-  margin-top: 0;
-}
-
-.grid-news-title a {
-  color: red;
-  text-decoration: none;
-}
-
 .focus {
   font-size: 1.6rem;
   font-weight: 700;
@@ -195,12 +201,6 @@ ul li + li {
 
 .news-item {
   display: flex;
-}
-
-.news-item img {
- height: 80px;
- width: 80px;
- align-self: center;
 }
 
 .news-item img:hover {
@@ -234,7 +234,7 @@ ul li + li {
   color: var(--text-color-light);
 }
 
-.source > a{
+.source > a {
   color: var(--text-color-light);
   text-decoration: none;
 }
@@ -279,7 +279,7 @@ ul li + li {
 
 .latest header ul li a:hover {
   color: black;
-} 
+}
 
 .tile-head {
   position: relative;
@@ -297,7 +297,7 @@ ul li + li {
 }
 
 .tile-head-title {
-  background-color: #F34A24;
+  background-color: #f34a24;
   margin-top: 0;
 }
 
@@ -313,17 +313,17 @@ ul li + li {
 
 .rate {
   margin-top: 0;
-  background-color: #FDE8E4;
+  background-color: #fde8e4;
 }
 
-.rate a{
- margin-left: 80px;
- color: #000;
- font-size: 1.2rem;
- font-weight: 700;
- text-decoration: none;
- padding: 0.5em 0;
- display: block;
+.rate a {
+  margin-left: 80px;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5em 0;
+  display: block;
 }
 
 .rate a > span {
@@ -350,14 +350,14 @@ ul li + li {
   padding-right: 0.2em;
 }
 
-.tile-target-link a:hover{
+.tile-target-link a:hover {
   color: #000;
 }
 
 .desc {
   font-size: 0.8rem;
   cursor: pointer;
-  border-top: 1px solid  #FDE8E4;
+  border-top: 1px solid #fde8e4;
   padding: 1em;
 }
 
@@ -375,6 +375,7 @@ ul li + li {
 .exclusive-tile h2 a {
   text-decoration: none;
 }
+
 .popular {
   background-color: #000;
   margin-bottom: 0;
@@ -384,7 +385,7 @@ ul li + li {
   display: flex;
   justify-content: space-between;
   color: red;
-  background-color: #FDE8E4;
+  background-color: #fde8e4;
   margin-top: 0;
 }
 
@@ -400,6 +401,7 @@ ul li + li {
 .exclusive-feature .text {
   padding: 0 0.8em;
 }
+
 .exclusive-feature .text h4 {
   cursor: auto;
   font-size: 0.9rem;
@@ -409,13 +411,13 @@ ul li + li {
   margin-top: 0;
 }
 
-.exclusive-feature .text p a{
+.exclusive-feature .text p a {
   color: red;
   text-decoration: none;
   font-weight: 700;
 }
 
-.exclusive-feature .text p a:hover{
+.exclusive-feature .text p a:hover {
   text-decoration: underline;
 }
 
@@ -456,7 +458,6 @@ ul li + li {
   font-size: 0.9rem;
 }
 
-
 /* ------------FOOTER SECTION----------- */
 
 .footer-top {
@@ -472,7 +473,7 @@ ul li + li {
   padding: 0;
   display: flex;
   justify-content: center;
-} 
+}
 
 .footer-top .icons ul li a {
   border: 2px solid #333;
@@ -523,9 +524,9 @@ ul li + li {
   margin-top: 0.2em;
 }
 
-.TNW img{
+.TNW img {
   width: 8%;
-  height: aut0
+  height: auto;
 }
 
 .TNW img:hover {

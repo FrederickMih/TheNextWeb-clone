@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 
-    /* ----------HEADER---------- */
+  /* ----------HEADER---------- */
 
   .header-mobile {
     display: none;
@@ -14,8 +14,7 @@
 
   .content-cover {
     display: grid;
-    grid-template-areas: "world gear"
-                        " world distract";
+    grid-template-areas: "world gear" " world distract";
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em;
@@ -52,9 +51,9 @@
     justify-content: flex-end;
   }
 
-    /* ---------NEWS GRID-------- */
+  /* ---------NEWS GRID-------- */
 
-  .grid-news-content  {
+  .grid-news-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
@@ -74,7 +73,7 @@
     height: auto;
   }
 
-    /* ----------LATEST SECTION------------ */
+  /* ----------LATEST SECTION------------ */
 
   .latest header ul li {
     display: inline;
@@ -109,7 +108,7 @@
     display: none;
   }
 
-    /* ---------EXCLUSIVE SECTION---------- */
+  /* ---------EXCLUSIVE SECTION---------- */
 
   .exclusive {
     display: grid;
@@ -121,9 +120,9 @@
     margin-top: 0;
   }
 
-    /* ------------FOOTER----------- */
+  /* ------------FOOTER----------- */
 
-  .footer-bottom p span{
+  .footer-bottom p span {
     display: inline;
   }
 
