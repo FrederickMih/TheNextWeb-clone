@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
-/* ---------CSS Quick Fixation------------*/
+ /* ---------CSS Quick Fixation------------*/
 
 :root {
   box-sizing: border-box;
@@ -60,6 +60,10 @@ ul li + li {
   align-self: center;
 }
 
+.news-item img:hover {
+  cursor: pointer;
+}
+
 .header-mobile ul .TNW-logo img {
   width: 70px;
   height: auto;
@@ -67,6 +71,23 @@ ul li + li {
 
 .search-icon {
   margin-left: auto;
+}
+
+.grid-news-title a {
+  color: red;
+  text-decoration: none;
+}
+
+.news-item-desc-heading > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.source > a {
+  color: var(--text-color-light);
+  text-decoration: none;
 }
 
 .cover p a {
@@ -77,11 +98,6 @@ ul li + li {
 
 .grid-news-title a + a {
   margin-top: 0;
-}
-
-.grid-news-title a {
-  color: red;
-  text-decoration: none;
 }
 
 .header-mobile ul > li > a {
@@ -163,6 +179,22 @@ ul li + li {
   display: inline;
 }
 
+.news-item-desc-heading a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.source > a:hover {
+  color: #000;
+}
+
+.latest header h2 a,
+.exclusive-tile h2 a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: red;
+}
+
 .cover p a:hover {
   color: #fff;
 }
@@ -203,10 +235,6 @@ ul li + li {
   display: flex;
 }
 
-.news-item img:hover {
-  cursor: pointer;
-}
-
 .news-item-desc {
   margin-top: 0;
   margin-left: 0.5em;
@@ -217,30 +245,9 @@ ul li + li {
   margin-bottom: 0.3em;
 }
 
-.news-item-desc-heading > a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-
-.news-item-desc-heading a:hover {
-  color: red;
-  text-decoration: underline;
-}
-
 .source {
   font-size: 0.8rem;
   color: var(--text-color-light);
-}
-
-.source > a {
-  color: var(--text-color-light);
-  text-decoration: none;
-}
-
-.source > a:hover {
-  color: #000;
 }
 
 /* CSS for latest section */
@@ -248,13 +255,6 @@ ul li + li {
 .latest {
   padding-left: 0.5em;
   padding-right: 0.5em;
-}
-
-.latest header h2 a,
-.exclusive-tile h2 a {
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: red;
 }
 
 .latest header h2 a:hover,
