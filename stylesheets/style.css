@@ -169,17 +169,17 @@ ul li + li {
   text-decoration: none;
 }
 
-.latest header h2 a,
-.exclusive-tile h2 a {
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: red;
-}
-
 .exclusive-links li a {
   color: #5c5c5c;
   text-decoration: none;
   font-size: 0.85rem;
+}
+
+.exclusive-tile h2 a,
+.latest header h2 a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: red;
 }
 
 .header-mobile ul > li > a {
@@ -261,11 +261,6 @@ ul li + li {
   display: inline;
 }
 
-.latest header ul li a {
-  color: red;
-  text-decoration: none;
-}
-
 .top-footer-menu ul li a {
   margin: 0.2em;
   text-decoration: none;
@@ -273,6 +268,11 @@ ul li + li {
   text-transform: uppercase;
   color: #787878;
   font-size: 0.9rem;
+}
+
+.latest header ul li a {
+  color: red;
+  text-decoration: none;
 }
 
 .news-item-desc-heading a:hover {
@@ -366,6 +366,10 @@ ul li + li {
   color: #000;
 }
 
+.exclusive-feature .text p a:hover {
+  text-decoration: underline;
+}
+
 .footer-top .icons ul li a {
   border: 2px solid #333;
   padding: 0.5em;
@@ -374,21 +378,21 @@ ul li + li {
   background-color: #333;
 }
 
-.latest header ul li a:hover {
-  color: black;
-}
-
-.exclusive-feature .text p a:hover {
-  text-decoration: underline;
-}
-
 .latest header h2 a:hover,
 .exclusive-tile h2 a:hover {
   color: black;
 }
 
-.footer-top .icons ul,
-.top-footer-menu ul {
+.top-footer-menu ul li a:hover {
+  color: #fff;
+}
+
+.latest header ul li a:hover {
+  color: black;
+}
+
+.top-footer-menu ul,
+.footer-top .icons ul {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -507,10 +511,6 @@ ul li + li {
   margin-bottom: 0;
   padding-top: 2em;
   padding-bottom: 2em;
-}
-
-.top-footer-menu ul li a:hover {
-  color: #fff;
 }
 
 .footer-top .icons ul li a:hover {
