@@ -30,12 +30,7 @@ ul li + li {
 
 /* ----------------CSS for HEADER--------------- */
 
-header {
-  /* border: 5px solid green; */
-}
-
 .header-mobile {
-  /* border: 3px solid blue; */
   box-shadow: 0 5px #f1f1f1;
   position: fixed;
   top: 0;
@@ -45,25 +40,23 @@ header {
 }
 
 .header-mobile ul {
-  /* border: 1px solid red; */
   display: flex;
-  justify-content: space-between;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
 
+.header-mobile ul li {
+  max-width: 100px;
 }
 
 .header-mobile ul .TNW-logo {
-  /* background-color: #000; */
-  /* border: 2px solid red;   */
+  background-color: #000;
 }
 
 .header-mobile ul .TNW-logo img {
-  width: 24%;
+  width: 70px;
   height: auto;
-  background-color: #000;
-  /* border: 2px solid red; */
 }
 
 .search-icon {
@@ -73,8 +66,8 @@ header {
 .header-mobile ul > li > a{
   border-left: 0.5px solid #f1f1f1;
   display: block;
-  padding: 0.6em;
-  font-size: 1.6rem;
+  padding: 0.4em;
+  font-size: 1.4rem;
 }
 
 .fa-search {
@@ -97,31 +90,34 @@ header {
 /* ----------CSS for main content-----------  */
 
 .content{
-  /* border: 2px solid red; */
   margin-top: 0;
   padding: 0.5em;
-  /* background-color: yellow; */
 }
 
 /* ------------content-cover section------------ */
 
-.content-cover {
-  /* border: 2px solid red; */
-}
-
 .cover {
-  /* border: 2px solid blue; */
   margin: 0.5em 0 0.5em 0;
   padding: 0.5em;
   background-position: cover;
+  background-repeat: no-repeat;
 }
 
 .cover:hover {
   background-blend-mode: soft-light;
 }
 
+.cover .tnw-special {
+  display: none;
+}
+
 .text-bottom {
   color: #fff;
+}
+
+.text-bottom > * + * {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .cover h4,
@@ -130,7 +126,6 @@ header {
   font-weight: 400;
   margin-bottom: 0;
   display: inline-block;
-  /* border: 2px solid red; */
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -138,24 +133,18 @@ header {
 .cover h2 {
   font-size: 1.4rem;
   font-weight: bolder;
-  margin-top: 0;
-  margin-bottom: 0;
   cursor: pointer;
-  /* border: 2px solid green; */
 }
 
 .cover p {
   font-size: 0.8rem;
   color: #f1f1f1;
-  /* border: 1px solid red; */
-  margin-top: 0;
-  padding: 0;
+  display: inline;
 }
 
 .cover p a {
   color: #ccc;
   text-decoration: none;
-  margin-top: 0;
   display: inline-block;
 }
 
@@ -163,29 +152,17 @@ header {
   color: #fff;
 }
 
+.cover p i {
+  margin-top: 0;
+}
+
 .cover > .text-bottom {
-  padding-top: 10%;
+  padding-top: 20%;
 }
-
-/* ------inserting background images for cover section------ */
-
-.world {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("assets/images/electric-car.jpg");
-}
-
-.gear {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("assets/images/electric-car.jpg");
-}
-
-.distract {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("assets/images/electric-car.jpg");
-}
-
 
 /* ---------Grid news section-------- */
 
 .grid-news {
-  /* border: 5px solid green; */
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
@@ -193,7 +170,6 @@ header {
 .grid-news-title {
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid blue; */
 }
 
 .grid-news-title a + a {
@@ -203,7 +179,6 @@ header {
 .grid-news-title a {
   color: red;
   text-decoration: none;
-  /* border: 1px solid blue; */
 }
 
 .focus {
@@ -218,19 +193,13 @@ header {
 
 /* -----------grid-news-contents----------- */
 
-.grid-news-content {
-  /* border: 2px solid red; */
-}
-
 .news-item {
-  /* border: 2px solid green; */
   display: flex;
 }
 
 .news-item img {
  height: 80px;
  width: 80px;
- /* border: 2px solid red; */
  align-self: center;
 }
 
@@ -239,9 +208,13 @@ header {
 }
 
 .news-item-desc {
-  /* border: 2px solid red; */
   margin-top: 0;
   margin-left: 0.5em;
+}
+
+.news-item-desc > p {
+  margin-top: 0;
+  margin-bottom: 0.3em;
 }
 
 .news-item-desc-heading > a {
@@ -258,7 +231,7 @@ header {
 
 .source {
   font-size: 0.8rem;
-  color: var(--text-color-light)
+  color: var(--text-color-light);
 }
 
 .source > a{
@@ -273,14 +246,9 @@ header {
 /* CSS for latest section */
 
 .latest {
-  /* border: 2px solid red; */
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
-
-.latest > header {
-  /* border: 2px solid blue; */
-} 
 
 .latest header h2 a,
 .exclusive-tile h2 a {
@@ -295,7 +263,6 @@ header {
 }
 
 .latest header ul {
-  /* border: 2px solid blue; */
   list-style-type: none;
   padding: 0;
   font-size: 0.9rem;
@@ -314,24 +281,16 @@ header {
   color: black;
 } 
 
-.latest-content {
-  /* border: 2px solid red; */
-}
-
-.latest-tile {
-  /* border: 2px solid green; */
-}
-
 .tile-head {
   position: relative;
   margin-bottom: 1.5em;
-  margin-top: 2em;
+  margin-top: 0;
+  z-index: -1;
 }
 
 .tile-head img {
   height: 60px;
   width: 60px;
-  /* border: 2px solid red; */
   position: absolute;
   top: 0.5em;
   left: 0.5em;
@@ -339,7 +298,7 @@ header {
 
 .tile-head-title {
   background-color: #F34A24;
-  /* border: 2px solid green; */
+  margin-top: 0;
 }
 
 .tile-head-title a {
@@ -353,7 +312,6 @@ header {
 }
 
 .rate {
-  /* border: 2px solid blue; */
   margin-top: 0;
   background-color: #FDE8E4;
 }
@@ -379,7 +337,6 @@ header {
   font-size: 0.85rem;
   padding-left: 0.5em;
   color: var(--text-color-light);
-  /* border: 2px solid blueviolet; */
   margin: 1em auto;
 }
 
@@ -400,7 +357,7 @@ header {
 .desc {
   font-size: 0.8rem;
   cursor: pointer;
-  border-top: 0.5px solid red;
+  border-top: 1px solid  #FDE8E4;
   padding: 1em;
 }
 
@@ -415,10 +372,6 @@ header {
   padding-right: 0.5em;
 }
 
-.exclusive-tile {
-  /* border: 2px solid blueviolet; */
-}
-
 .exclusive-tile h2 a {
   text-decoration: none;
 }
@@ -428,7 +381,6 @@ header {
 }
 
 .exclusive-feature {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   color: red;
@@ -439,7 +391,6 @@ header {
 .exclusive-feature img {
   height: 100px;
   width: 100px;
-  /* border: 3px solid green; */
 }
 
 .exclusive-feature > a {
@@ -447,7 +398,6 @@ header {
 }
 
 .exclusive-feature .text {
-  /* border: 1px solid blue; */
   padding: 0 0.8em;
 }
 .exclusive-feature .text h4 {
@@ -456,7 +406,6 @@ header {
 }
 
 .exclusive-feature .text p {
-  /* border: 1px solid red; */
   margin-top: 0;
 }
 
@@ -471,7 +420,6 @@ header {
 }
 
 .exclusive-links {
-  /* border: 2px solid green; */
   list-style-position: inside;
   padding: 0;
   margin-top: 0;
@@ -511,12 +459,7 @@ header {
 
 /* ------------FOOTER SECTION----------- */
 
-.footer {
-  /* border: 2px solid red; */
-}
-
 .footer-top {
-  /* border: 2px solid blue; */
   background-color: #131313;
   margin-bottom: 0;
   padding-top: 2em;
@@ -528,7 +471,6 @@ header {
   list-style-type: none;
   padding: 0;
   display: flex;
-  /* border: 1px solid green; */
   justify-content: center;
 } 
 
@@ -564,7 +506,6 @@ header {
 .footer-bottom {
   background-color: #000;
   margin-top: 0;
-  /* border: 1px solid red; */
   color: #fff;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -572,14 +513,12 @@ header {
 }
 
 .footer-bottom p {
-  /* border: 1px solid red; */
   font-size: 0.8rem;
   color: #787878;
 }
 
 .footer-bottom p > span {
   display: block;
-  /* border: 1px solid blue; */
   margin: 0;
   margin-top: 0.2em;
 }

@@ -2,9 +2,14 @@
 
 # TheNextWeb-clone
 
-> This project is the clone of the next web page
+> We have created the clone of the famous Tech magazine The Next Web. This project has been created as a part of Microverse Collaborative Project.
 
-![screenshot](./assets/images/thenextweb.png)
+![screenshot](./assets/images/screenshot1.png)
+![screenshot](./assets/images/screenshot2.png)
+![screenshot](./assets/images/screenshot3.png)
+![screenshot](./assets/images/screenshot4.png)
+![screenshot](./assets/images/screenshot5.png)
+![screenshot](./assets/images/screenshot6.png)
 
 
 ## Built With
@@ -13,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://frederickmih.github.io/TheNextWeb-clone/)
+[Live Demo Link]()
 
 
 ## Getting Started

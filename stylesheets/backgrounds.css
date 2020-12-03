@@ -1,0 +1,50 @@
+/* ------inserting background images for cover section------ */
+
+.world {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/trio.jpg");
+  padding-top: 8%;
+}
+  
+.gear {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/StackSkills .jpg");
+}
+
+.distract {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/electric-car.jpg");
+}
+
+.one {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/trio.jpg");
+}
+
+.two {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/StackSkills .jpg");
+}
+
+.three {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/smartphone.jpg");
+}
+
+.four {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/Snapchat.jpg");
+}
+  
+.five {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/space.jpg");
+}
+
+.six {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/periodic-table.jpg");
+}
+
+.seven {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/adobe.jpg");
+}
+
+.eight {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/fight.jpeg");
+}
+
+.nine {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/assets/images/lense.png");
+}
