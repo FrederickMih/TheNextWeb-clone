@@ -1,5 +1,4 @@
 @media (min-width: 1024px) {
-
   /* ---------HEADER--------- */
     
   .header-tablet .logo {
@@ -69,5 +68,6 @@
   .exclusive {
     max-width: 1200px;
     margin: 0 auto;
-  }    
+  }
+  
 }

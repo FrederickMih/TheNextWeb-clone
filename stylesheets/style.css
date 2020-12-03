@@ -80,7 +80,16 @@ ul li + li {
   width: 100px;
 }
 
+.TNW img {
+  width: 8%;
+  height: auto;
+}
+
 .news-item img:hover {
+  cursor: pointer;
+}
+
+.TNW img:hover {
   cursor: pointer;
 }
 
@@ -137,6 +146,13 @@ ul li + li {
 
 .exclusive-feature > a {
   margin-top: 0;
+}
+
+.stackpath a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .cover p a {
@@ -250,6 +266,15 @@ ul li + li {
   text-decoration: none;
 }
 
+.top-footer-menu ul li a {
+  margin: 0.2em;
+  text-decoration: none;
+  font-family: var(--square-font);
+  text-transform: uppercase;
+  color: #787878;
+  font-size: 0.9rem;
+}
+
 .news-item-desc-heading a:hover {
   color: red;
   text-decoration: underline;
@@ -337,27 +362,8 @@ ul li + li {
   font-weight: 700;
 }
 
-.exclusive-feature .text p a:hover {
-  text-decoration: underline;
-}
-
 .exclusive-links li a:hover {
   color: #000;
-}
-
-.latest header h2 a:hover,
-.exclusive-tile h2 a:hover {
-  color: black;
-}
-
-.latest header ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 0.9rem;
-}
-
-.latest header ul li {
-  margin-bottom: 0.8em;
 }
 
 .footer-top .icons ul li a {
@@ -370,6 +376,33 @@ ul li + li {
 
 .latest header ul li a:hover {
   color: black;
+}
+
+.exclusive-feature .text p a:hover {
+  text-decoration: underline;
+}
+
+.latest header h2 a:hover,
+.exclusive-tile h2 a:hover {
+  color: black;
+}
+
+.footer-top .icons ul,
+.top-footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.latest header ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.latest header ul li {
+  margin-bottom: 0.8em;
 }
 
 .tile-head {
@@ -476,12 +509,8 @@ ul li + li {
   padding-bottom: 2em;
 }
 
-.footer-top .icons ul,
-.top-footer-menu ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+.top-footer-menu ul li a:hover {
+  color: #fff;
 }
 
 .footer-top .icons ul li a:hover {
@@ -489,19 +518,6 @@ ul li + li {
 }
 
 .footer-top .icons ul li a i {
-  color: #fff;
-}
-
-.top-footer-menu ul li a {
-  margin: 0.2em;
-  text-decoration: none;
-  font-family: var(--square-font);
-  text-transform: uppercase;
-  color: #787878;
-  font-size: 0.9rem;
-}
-
-.top-footer-menu ul li a:hover {
   color: #fff;
 }
 
@@ -523,20 +539,4 @@ ul li + li {
   display: block;
   margin: 0;
   margin-top: 0.2em;
-}
-
-.TNW img {
-  width: 8%;
-  height: auto;
-}
-
-.TNW img:hover {
-  cursor: pointer;
-}
-
-.stackpath a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  text-transform: uppercase;
 }
