@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
- /* ---------CSS Quick Fixation------------*/
+/* ---------CSS Quick Fixation------------*/
 
 :root {
   box-sizing: border-box;
+
   --square-font: 'Play', sans-serif;
   --text-color-light: rgb(161, 156, 156);
 }
@@ -218,7 +219,7 @@ ul li + li {
 .cover {
   margin: 0.5em 0 0.5em 0;
   padding: 0.5em;
-  background-position: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -297,7 +298,6 @@ ul li + li {
   padding-right: 0.2em;
 }
 
-
 .cover p i {
   margin-top: 0;
 }
@@ -366,8 +366,8 @@ ul li + li {
   color: #000;
 }
 
-.latest header h2 a:hover,
-.exclusive-tile h2 a:hover {
+.exclusive-tile h2 a:hover,
+.latest header h2 a:hover {
   color: black;
 }
 
@@ -387,18 +387,18 @@ ul li + li {
   color: black;
 }
 
+.latest header ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
 .top-footer-menu ul,
 .footer-top .icons ul {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
-}
-
-.latest header ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 0.9rem;
 }
 
 .exclusive-feature .text p a:hover {
