@@ -1,0 +1,50 @@
+/* ------inserting background images for cover section------ */
+
+.world {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/r8n0oz5v2i6os3n/trio.jpg?dl=1");
+  padding-top: 8%;
+}
+
+.gear {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/dddhoommycg90c7/adobe.jpg?dl=1");
+}
+
+.distract {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/5vluky0lmwhdlxc/electric-car.jpg?dl=1");
+}
+
+.one {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/r8n0oz5v2i6os3n/trio.jpg?dl=1");
+}
+
+.two {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/3cdow0tjt5nndvk/StackSkills%20.jpg?dl=1");
+}
+
+.three {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/xuu7fglkgd7ex1d/smartphone.jpg?dl=1");
+}
+
+.four {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/qmuszi0ynbhjypa/Snapchat.jpg?dl=1");
+}
+
+.five {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/jr3pdge7rva6rgt/space.jpg?dl=1");
+}
+
+.six {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/ceu7ljr9jxmy5sy/periodic-table.jpg?dl=1");
+}
+
+.seven {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/dddhoommycg90c7/adobe.jpg?dl=1");
+}
+
+.eight {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/gbmykvy7qsg7s83/fight.jpeg?dl=1");
+}
+
+.nine {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("https://www.dropbox.com/s/45cadjgyuf07ipb/lense.png?dl=1");
+}

@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+:root {
+  box-sizing: border-box;
+
+  --square-font: 'Play', sans-serif;
+  --text-color-light: rgb(161, 156, 156);
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+ul li + li {
+  margin-top: 0;
+}
+
+/* ----------------CSS for HEADER--------------- */
+
+.header-mobile {
+  box-shadow: 0 5px #f1f1f1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.header-mobile ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.exclusive-links li {
+  color: red;
+  border-bottom: 1px solid #f1f1f1;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.header-mobile ul li {
+  max-width: 100px;
+}
+
+.header-mobile ul .TNW-logo {
+  background-color: #000;
+}
+
+.news-item img {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+}
+
+.tile-head img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.exclusive-feature img {
+  height: 100px;
+  width: 100px;
+}
+
+.TNW img {
+  width: 8%;
+  height: auto;
+}
+
+.news-item img:hover {
+  cursor: pointer;
+}
+
+.TNW img:hover {
+  cursor: pointer;
+}
+
+.header-mobile ul .TNW-logo img {
+  width: 70px;
+  height: auto;
+}
+
+.search-icon {
+  margin-left: auto;
+}
+
+.grid-news-title a {
+  color: red;
+  text-decoration: none;
+}
+
+.news-item-desc-heading > a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.source > a {
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+.tile-head-title a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 0;
+  margin-left: 80px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.rate a {
+  margin-left: 80px;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.5em 0;
+  display: block;
+}
+
+.tile-target-link a {
+  color: var(--text-color-light);
+  text-decoration: none;
+}
+
+.exclusive-feature > a {
+  margin-top: 0;
+}
+
+.stackpath a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cover p a {
+  color: #ccc;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.grid-news-title a + a {
+  margin-top: 0;
+}
+
+.exclusive-tile h2 a {
+  text-decoration: none;
+}
+
+.exclusive-links li a {
+  color: #5c5c5c;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.exclusive-tile h2 a,
+.latest header h2 a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: red;
+}
+
+.header-mobile ul > li > a {
+  border-left: 0.5px solid #f1f1f1;
+  display: block;
+  padding: 0.4em;
+  font-size: 1.4rem;
+}
+
+.fa-search {
+  color: #bfbfbf;
+  transform: rotateY(180deg);
+}
+
+.fa-bars {
+  color: #f34a24;
+}
+
+.header-tablet {
+  display: none;
+}
+
+.header-desktop {
+  display: none;
+}
+
+/* ----------CSS for main content-----------  */
+
+.content {
+  margin-top: 0;
+  padding: 0.5em;
+}
+
+/* ------------content-cover section------------ */
+
+.cover {
+  margin: 0.5em 0 0.5em 0;
+  padding: 0.5em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover:hover {
+  background-blend-mode: soft-light;
+}
+
+.cover .tnw-special {
+  display: none;
+}
+
+.text-bottom {
+  color: #fff;
+}
+
+.text-bottom > * + * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cover h4,
+.exclusive-feature .text h4 {
+  font-family: var(--square-font);
+  font-weight: 400;
+  margin-bottom: 0;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.cover h2 {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.cover p {
+  font-size: 0.8rem;
+  color: #f1f1f1;
+  display: inline;
+}
+
+.top-footer-menu ul li a {
+  margin: 0.2em;
+  text-decoration: none;
+  font-family: var(--square-font);
+  text-transform: uppercase;
+  color: #787878;
+  font-size: 0.9rem;
+}
+
+.latest header ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+.news-item-desc-heading a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.source > a:hover {
+  color: #000;
+}
+
+.tile-target-link a:hover {
+  color: #000;
+}
+
+.cover p a:hover {
+  color: #fff;
+}
+
+.tile-target-link i {
+  color: #000;
+  padding-right: 0.2em;
+}
+
+.cover p i {
+  margin-top: 0;
+}
+
+.cover > .text-bottom {
+  padding-top: 20%;
+}
+
+/* ---------Grid news section-------- */
+
+.grid-news {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.grid-news-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.focus {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.focus-less {
+  font-size: 0.9rem;
+  align-self: flex-end;
+}
+
+/* -----------grid-news-contents----------- */
+
+.news-item {
+  display: flex;
+}
+
+.news-item-desc {
+  margin-top: 0;
+  margin-left: 0.5em;
+}
+
+.news-item-desc > p {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.source {
+  font-size: 0.8rem;
+  color: var(--text-color-light);
+}
+
+/* CSS for latest section */
+
+.latest {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.exclusive-feature .text p a {
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.exclusive-links li a:hover {
+  color: #000;
+}
+
+.exclusive-tile h2 a:hover,
+.latest header h2 a:hover {
+  color: black;
+}
+
+.footer-top .icons ul li a {
+  border: 2px solid #333;
+  padding: 0.5em;
+  margin: 0.2em;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.top-footer-menu ul li a:hover {
+  color: #fff;
+}
+
+.latest header ul li a:hover {
+  color: black;
+}
+
+.top-footer-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.latest header ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.footer-top .icons ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.exclusive-feature .text p a:hover {
+  text-decoration: underline;
+}
+
+.latest header ul li {
+  margin-bottom: 0.8em;
+}
+
+.tile-head {
+  position: relative;
+  margin-bottom: 1.5em;
+  margin-top: 0;
+  z-index: -1;
+}
+
+.tile-head-title {
+  background-color: #f34a24;
+  margin-top: 0;
+}
+
+.rate {
+  margin-top: 0;
+  background-color: #fde8e4;
+}
+
+.desc span {
+  color: var(--text-color-light);
+}
+
+.rate a > span {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: var(--square-font);
+}
+
+.tile-target-link {
+  font-size: 0.85rem;
+  padding-left: 0.5em;
+  color: var(--text-color-light);
+  margin: 1em auto;
+}
+
+.desc {
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-top: 1px solid #fde8e4;
+  padding: 1em;
+}
+
+/* -------------EXCLUSIVE SECTION---------- */
+
+.exclusive {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.popular {
+  background-color: #000;
+  margin-bottom: 0;
+}
+
+.exclusive-feature {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  background-color: #fde8e4;
+  margin-top: 0;
+}
+
+.exclusive-feature .text {
+  padding: 0 0.8em;
+}
+
+.exclusive-feature .text h4 {
+  cursor: auto;
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  color: #787878;
+}
+
+.exclusive-feature .text p {
+  margin-top: 0;
+}
+
+.exclusive-links {
+  list-style-position: inside;
+  padding: 0;
+  margin-top: 0;
+}
+
+.popular .text-bottom {
+  padding-top: 30%;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #b3b3b3;
+}
+
+.non-strike {
+  color: #6c6c6c;
+  font-size: 0.9rem;
+}
+
+/* ------------FOOTER SECTION----------- */
+
+.footer-top {
+  background-color: #131313;
+  margin-bottom: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-top .icons ul li a:hover {
+  background-color: #000;
+}
+
+.footer-top .icons ul li a i {
+  color: #fff;
+}
+
+.footer-bottom {
+  background-color: #000;
+  margin-top: 0;
+  color: #fff;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+
+.footer-bottom p > span {
+  display: block;
+  margin: 0;
+  margin-top: 0.2em;
+}

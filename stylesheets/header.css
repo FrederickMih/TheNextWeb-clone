@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+.header-tablet {
+  margin-top: 0;
+  box-shadow: 0 5px #f1f1f1;
+  padding-top: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-tablet .logo {
+  background-color: #000;
+  display: inline;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.header-tablet .logo img {
+  width: 70px;
+  margin-top: 1em;
+}
+
+/* ----------TOP NAV BAR------------ */
+
+.nav-top {
+  background-color: #131313;
+  margin-top: 0;
+}
+
+.nav-top ul,
+.nav-bottom ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.3em;
+  margin: 0;
+  margin-left: 100px;
+}
+
+.nav-top ul li a,
+.nav-bottom ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 0.3em 0.8em;
+  font-size: 0.8rem;
+  color: #8d8d8d;
+}
+
+.nav-bottom ul li a {
+  font-size: 1rem;
+  font-family: 'Play', sans-serif;
+}
+
+.nav-top ul li a:hover {
+  color: #fff;
+}
+
+.about {
+  margin-left: auto;
+}
+
+/* -------------BOTTOM NAV BAR------------- */
+
+.nav-bottom {
+  margin-top: 0;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  background-color: #fff;
+}
+
+.nav-bottom ul li a:hover {
+  color: #000;
+}
